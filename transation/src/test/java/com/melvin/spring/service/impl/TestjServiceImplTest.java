@@ -22,21 +22,37 @@ public class TestjServiceImplTest {
 
     //@Test
     public void test3() {
-        testjService.test3();
+        try {
+            testjService.test3();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 
     //@Test
     public void test4() {
-        testjService.test4();
+        try {
+            testjService.test4();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 
     //@Test
     public void test5() {
-        testjService.test5();
+        try {
+            testjService.test5();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 
-    //@Test
+    @Test
     public void test6() {
-        testjService.test6();
+        try {
+            testjService.test6();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 }

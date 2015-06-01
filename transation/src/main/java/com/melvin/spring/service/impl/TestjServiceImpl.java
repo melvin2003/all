@@ -71,8 +71,8 @@ public class TestjServiceImpl implements TestjService {
     @Transactional(rollbackFor = Exception.class)
     public void test6() {
         Map<String, Object> param = new java.util.HashMap<String, Object>();
-        param.put("id", 4);
-        param.put("name", "test4");
+        param.put("id", 6);
+        param.put("name", "test6");
         testjDao.insert1(param);
         testjService.test1();
         testjService.test2();
